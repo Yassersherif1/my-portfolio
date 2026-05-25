@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <meta name="description" content="Full-stack developer portfolio">
+  <meta name="keywords" content="developer, portfolio, react, typescript">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne%3Awght%40400%3B700%3B800%26family%3DDM%20Sans%3Awght%40400%3B500%3B700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #070700;
+      color: #FFFFFF;
+    }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Syne', sans-serif; }
+    a { color: inherit; }
+    img { max-width: 100%; height: auto; display: block; }
+    @media (max-width: 768px) {
+      section > div { padding: 0 !important; }
+      [style*="grid-template-columns:160px"] { grid-template-columns: 1fr !important; gap: 8px !important; }
+      [style*="grid-template-columns:repeat(auto-fill"] { grid-template-columns: 1fr !important; }
+    }
+  </style>
+  
+</head>
+<body>
+<section style="background:linear-gradient(135deg, #070700, #0D0D16);padding:80px 80px 80px 80px;position:relative;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div style="display:inline-flex;align-items:center;gap:8px;background:#00FFA318;border:1px solid #00FFA340;border-radius:100px;padding:6px 16px;margin-bottom:32px;">
+        <div style="width:7px;height:7px;border-radius:50%;background:#00FFA3;"></div>
+        <span style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;color:#00FFA3;font-size:13px;font-weight:500;">Available for work</span>
+      </div>
+    <h1 style="font-family:'Syne',sans-serif;font-size:64px;font-weight:700;line-height:1.1;letter-spacing:-1px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;margin-bottom:4px;">I build digital experiences</h1>
+    <h1 style="font-family:'Syne',sans-serif;font-size:64px;font-weight:700;line-height:1.1;letter-spacing:-1px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;color:#00FFA3;margin-bottom:24px;">that scale.</h1>
+    <p style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;max-width:600px;margin-bottom:40px;">Full-stack developer crafting modern web applications with exceptional user experiences and clean, maintainable code.</p>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;">
+      <a href="#projects" style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;color:#070700;background:#00FFA3;padding:13px 28px;border-radius:8px;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;">View My Work</a>
+<a href="#contact" style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;padding:13px 28px;border-radius:8px;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;background:transparent;border:1px solid rgba(255,255,255,0.18);">Get In Touch</a>
+    </div>
+    <div style="margin-top:48px;">
+        <p style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;">Tech Stack</p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;">
+          <span style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;padding:5px 14px;border-radius:6px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">React</span>
+<span style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;padding:5px 14px;border-radius:6px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">Next.js</span>
+<span style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;padding:5px 14px;border-radius:6px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">TypeScript</span>
+<span style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;padding:5px 14px;border-radius:6px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">Node.js</span>
+<span style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;padding:5px 14px;border-radius:6px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">PostgreSQL</span>
+<span style="font-family:'DM Sans',sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;padding:5px 14px;border-radius:6px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);">Tailwind CSS</span>
+        </div>
+      </div>
+  </div>
+</section>
+<section style="background:#0D0D16;padding:80px 80px 80px 80px;position:relative;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <h2 style="font-family:'Syne',sans-serif;font-size:48px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;margin-bottom:24px;">Crafting code with<span style="color:#00FFA3;"> purpose and precision.</span></h2>
+    <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;max-width:700px;">I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With expertise in modern JavaScript frameworks and a keen eye for design, I build applications that users love.</p>
+  </div>
+</section>
+<section style="background:#070700;padding:80px 80px 80px 80px;position:relative;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <h2 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;margin-bottom:40px;">Skills</h2>
+    <div style="margin-bottom:28px;">
+          <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:14px;opacity:0.6;">Frontend</p>
+          <div style="display:flex;flex-wrap:wrap;gap:10px;"><div style="padding:8px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;gap:8px;">
+      <span style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-weight:500;">React</span>
+      <span style="color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">95%</span>
+    </div><div style="padding:8px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;gap:8px;">
+      <span style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-weight:500;">Next.js</span>
+      <span style="color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">90%</span>
+    </div><div style="padding:8px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;gap:8px;">
+      <span style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-weight:500;">TypeScript</span>
+      <span style="color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">88%</span>
+    </div><div style="padding:8px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;gap:8px;">
+      <span style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-weight:500;">TailwindCSS</span>
+      <span style="color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">92%</span>
+    </div></div>
+        </div><div style="margin-bottom:28px;">
+          <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:14px;opacity:0.6;">Backend</p>
+          <div style="display:flex;flex-wrap:wrap;gap:10px;"><div style="padding:8px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;gap:8px;">
+      <span style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-weight:500;">Node.js</span>
+      <span style="color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">85%</span>
+    </div><div style="padding:8px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;gap:8px;">
+      <span style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-weight:500;">PostgreSQL</span>
+      <span style="color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">80%</span>
+    </div></div>
+        </div>
+  </div>
+</section>
+<section style="background:#0D0D16;padding:80px 80px 80px 80px;position:relative;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div style="margin-bottom:40px;">
+      <h2 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;margin-bottom:8px;">Projects</h2>
+      <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;opacity:0.6;">Things I've built</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;">
+      <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:28px;">
+      <div style="display:inline-block;padding:3px 10px;border-radius:4px;background:#00FFA320;color:#00FFA3;font-size:10px;font-family:DM Sans,sans-serif;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:16px;">Featured</div>
+      <div style="width:100%;height:130px;background:rgba(255,255,255,0.04);border-radius:8px;margin-bottom:20px;display:flex;align-items:center;justify-content:center;">
+        <span style="opacity:0.15;font-size:24px;">&#127760;</span>
+      </div>
+      <h3 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;font-size:18px;margin-bottom:8px;">SaaS Dashboard</h3>
+      <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:14px;margin-bottom:16px;">A full-stack SaaS analytics dashboard with real-time data visualization and team collaboration features.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;">
+          <span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">React</span><span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">Node.js</span><span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">PostgreSQL</span>
+        </div>
+      <div style="display:flex;gap:14px;"><a href="#" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;color:#00FFA3;font-size:13px;text-decoration:none;display:flex;align-items:center;gap:4px;">&#8599; Live</a>
+<a href="#" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;text-decoration:none;display:flex;align-items:center;gap:4px;">&#128279; Code</a></div>
+    </div>
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:28px;">
+      
+      <div style="width:100%;height:130px;background:rgba(255,255,255,0.04);border-radius:8px;margin-bottom:20px;display:flex;align-items:center;justify-content:center;">
+        <span style="opacity:0.15;font-size:24px;">&#127760;</span>
+      </div>
+      <h3 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;font-size:18px;margin-bottom:8px;">E-Commerce Platform</h3>
+      <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:14px;margin-bottom:16px;">Modern e-commerce solution with Next.js, Stripe payments, and a custom CMS.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;">
+          <span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">Next.js</span><span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">Stripe</span><span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">TypeScript</span>
+        </div>
+      <div style="display:flex;gap:14px;"><a href="#" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;color:#00FFA3;font-size:13px;text-decoration:none;display:flex;align-items:center;gap:4px;">&#8599; Live</a>
+<a href="#" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;text-decoration:none;display:flex;align-items:center;gap:4px;">&#128279; Code</a></div>
+    </div>
+<div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:28px;">
+      
+      <div style="width:100%;height:130px;background:rgba(255,255,255,0.04);border-radius:8px;margin-bottom:20px;display:flex;align-items:center;justify-content:center;">
+        <span style="opacity:0.15;font-size:24px;">&#127760;</span>
+      </div>
+      <h3 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;font-size:18px;margin-bottom:8px;">Mobile App API</h3>
+      <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:14px;margin-bottom:16px;">RESTful API powering a cross-platform mobile app with 50k+ users.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;">
+          <span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">Node.js</span><span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">PostgreSQL</span><span style="padding:3px 10px;border-radius:4px;background:#00FFA315;color:#00FFA3;font-size:11px;font-family:DM Sans,sans-serif;">Redis</span>
+        </div>
+      <div style="display:flex;gap:14px;"><a href="#" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;text-decoration:none;display:flex;align-items:center;gap:4px;">&#128279; Code</a></div>
+    </div>
+    </div>
+  </div>
+</section>
+<section style="background:#070700;padding:80px 80px 80px 80px;position:relative;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <h2 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;margin-bottom:40px;">Experience</h2>
+    <div style="display:flex;flex-direction:column;gap:36px;">
+      <div style="display:grid;grid-template-columns:160px 1fr;gap:32px;">
+      <div>
+        <p style="color:#00FFA3;font-family:DM Sans,sans-serif;font-size:12px;font-weight:500;margin-bottom:4px;">2022 – Present</p>
+        <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;opacity:0.7;">TechCorp Inc.</p>
+      </div>
+      <div>
+        <h3 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;font-size:20px;margin-bottom:10px;">Senior Full-Stack Engineer</h3>
+        <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;">Leading development of a SaaS platform serving 10k+ users. Built real-time features with WebSockets and optimized database queries for 3x performance improvement.</p>
+      </div>
+    </div>
+<div style="display:grid;grid-template-columns:160px 1fr;gap:32px;">
+      <div>
+        <p style="color:#00FFA3;font-family:DM Sans,sans-serif;font-size:12px;font-weight:500;margin-bottom:4px;">2020 – 2022</p>
+        <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;font-size:13px;opacity:0.7;">StartupXYZ</p>
+      </div>
+      <div>
+        <h3 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;font-size:20px;margin-bottom:10px;">Full-Stack Developer</h3>
+        <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;">Built and shipped 5 major features from design to deployment. Implemented CI/CD pipeline reducing deployment time by 60%.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section style="background:linear-gradient(135deg, #0D0D16, #070700);padding:80px 80px 80px 80px;position:relative;">
+  <div style="max-width:1100px;margin:0 auto;text-align:left;">
+    <h2 style="font-family:'Syne',sans-serif;font-size:40px;font-weight:700;line-height:1.2;letter-spacing:-0.5px;color:#FFFFFF;text-align:left;text-transform:none;margin:0;margin-bottom:16px;">Get In Touch</h2>
+    <p style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;margin-bottom:32px;">Let's work together</p>
+    <a href="mailto:hello@example.com" style="display:inline-flex;align-items:center;gap:10px;color:#00FFA3;font-size:22px;font-weight:500;text-decoration:none;margin-bottom:40px;font-family:DM Sans,sans-serif;">&#9993; hello@example.com</a>
+    <div style="display:flex;gap:12px;justify-content:flex-start;">
+      <a href="https://github.com" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;padding:12px;border-radius:8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);display:flex;text-decoration:none;">&#128279;</a>
+<a href="https://twitter.com" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;padding:12px;border-radius:8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);display:flex;text-decoration:none;">&#128279;</a>
+<a href="https://linkedin.com" style="font-family:'DM Sans',sans-serif;font-size:16px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#B0B0C0;text-align:left;padding:12px;border-radius:8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);display:flex;text-decoration:none;">&#128279;</a>
+    </div>
+  </div>
+</section>
+<section style="background:#070700;padding:32px 80px 32px 80px;position:relative;">
+  <div style="max-width:1100px;margin:0 auto;display:flex;justify-content:center;">
+    <p style="font-family:'DM Sans',sans-serif;font-size:14px;font-weight:400;line-height:1.7;letter-spacing:0px;color:#6B6B80;text-align:left;font-size:13px;opacity:0.6;">© 2026. All rights reserved.</p>
+  </div>
+</section>
+</body>
+</html>
